@@ -1,0 +1,25 @@
+body {
+  font-family: Arial;
+  background: #f5f5f5;
+  text-align: center;
+}
+
+input {
+  margin: 5px;
+  padding: 8px;
+}
+
+button {
+  padding: 10px;
+  background: green;
+  color: white;
+  border: none;
+}
+
+#eligible {
+  color: green;
+}
+
+#others {
+  color: gray;
+}
