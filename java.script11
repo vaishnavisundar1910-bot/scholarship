@@ -1,0 +1,7 @@
+if (
+  user.income <= s.income_limit &&
+  (s.state === user.state || s.state === "All") &&
+  (s.gender === user.gender || s.gender === "All")
+) {
+  // eligible
+}
