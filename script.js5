@@ -1,0 +1,23 @@
+function check() {
+  const income = document.getElementById("income").value;
+  const state = document.getElementById("state").value;
+  const gender = document.getElementById("gender").value;
+
+  let eligible = "";
+  let others = "";
+
+  scholarships.forEach(s => {
+    if (
+      income <= s.income_limit &&
+      (s.state === state || s.state === "All") &&
+      (s.gender === gender || s.gender === "All")
+    ) {
+      eligible += `<div class="card" style="color:green">✅ ${s.name}</div>`;
+    } else {
+      others += `<div class="card" style="color:gray">❌ ${s.name}</div>`;
+    }
+  });
+
+  document.getElementById("eligible").innerHTML = eligible;
+  document.getElementById("others").innerHTML = others;
+}
