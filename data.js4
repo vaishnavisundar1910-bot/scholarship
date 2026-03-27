@@ -1,0 +1,20 @@
+const scholarships = [
+  {
+    name: "TN Girls Scholarship",
+    income_limit: 200000,
+    state: "Tamil Nadu",
+    gender: "Female"
+  },
+  {
+    name: "All India Scholarship",
+    income_limit: 500000,
+    state: "All",
+    gender: "All"
+  },
+  {
+    name: "Sports Scholarship",
+    income_limit: 300000,
+    state: "All",
+    gender: "All"
+  }
+];
