@@ -1,0 +1,9 @@
+const scholarships = [
+  {
+    name: "Girls Scholarship",
+    income_limit: 200000,
+    state: "Tamil Nadu",
+    gender: "Female",
+    course: "All"
+  }
+];
