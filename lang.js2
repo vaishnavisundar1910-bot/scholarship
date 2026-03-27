@@ -1,0 +1,8 @@
+const lang = {
+  en: { title: "Scholarship Finder" },
+  ta: { title: "உதவித்தொகை தேடல்" }
+};
+
+function changeLang(l) {
+  document.querySelector("h1").innerText = lang[l].title;
+}
